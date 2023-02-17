@@ -25,7 +25,7 @@ Only Linux (or Windows Subsystem for Linux), and macOS are supported.
 ```
 Usage: keep [OPTION]... [--] COMMAND [ARG]...
 Save the output of a command for recall later.
-      --ttl duration   time to remember command output (default 12h0m0s)
+      --ttl duration   time to remember command output (default 1h0m0s)
   -h, --help           display this help message
 ```
 

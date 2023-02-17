@@ -37,7 +37,7 @@ func init() {
 	flags.SetInterspersed(false)
 	flags.SetOutput(os.Stderr)
 
-	flags.DurationVar(&ttl, "ttl", 12*time.Hour, "time to remember command output")
+	flags.DurationVar(&ttl, "ttl", 60*time.Minute, "time to remember command output")
 	flags.BoolVarP(&help, "help", "h", false, "display this help message")
 }
 
